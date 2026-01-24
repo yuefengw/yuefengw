@@ -33,17 +33,3 @@
 | **Databases** | ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white) |
 
 ---
-
-### 📊 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yuefengw&show_icons=true&theme=tokyonight&count_private=true" alt="stats graph" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuefengw&layout=compact&theme=tokyonight" alt="languages graph" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yuefengw&theme=tokyonight" alt="streak stats" />
-</div>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yuefengw/yuefengw/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
