@@ -37,9 +37,8 @@
 | ------------- | ------------------ | --------------------------------------------------------- |
 | 🐙 GitHub     | 开源项目与代码仓库 | [yuefengw](https://github.com/yuefengw)            |
 | 📧 Email      | 邮箱联系           | [wyf010219@163.com](mailto:wyf010219@163.com)                    |
-| 🌐 个人博客   | 技术分享与思考     | [https://yuefengw.github.io/](https://yuefengw.github.io/) |
-| 📝 语雀       | 知识库与文档       | [语雀空间](https://www.yuque.com/wyf)               |
-| QQ           |  	聊天						| 921592559  |
+| 🌐 个人博客   | 技术分享与思考     | [CSDN 摸个小yu](https://blog.csdn.net/qq_41725967?spm=1011.2124.3001.5343) |
+| 📝 语雀       | 知识库与文档       | [语雀空间](https://www.yuque.com/u55081998)               |
 
 ## 🚀 项目经历
 
