@@ -1,23 +1,20 @@
-<h1 align="center">Hi there, I'm <a href="https://github.com/你的用户名" target="_blank">Your Name</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<h1 align="center">Hi there, I'm <a href="https://github.com/yuefengw" target="_blank">Your Name</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 <p align="center">
   <em>🤖 A passionate developer from Earth</em>
 </p>
 
 <p align="center">
-  <a href="mailto:你的邮箱@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/你的ID"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:yuefengw12@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   </p>
 
 ---
 
 ### 👨‍💻 About Me
 
-- 🔭 I’m currently working on **[项目名称/领域]**
-- 🌱 I’m currently learning **[新技术/语言]**
-- 👯 I’m looking to collaborate on **[开源项目]**
-- 💬 Ask me about **[你擅长的领域]**
-- 📫 How to reach me: **[你的邮箱/联系方式]**
+- 🔭 I’m currently working on **SXU**
+- 🌱 I’m currently learning **Java, GO**
+- 👯 I’m looking to collaborate on **GeekFlow**
 
 ---
 
@@ -38,8 +35,8 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=radical&count_private=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact&theme=radical" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yuefengw&show_icons=true&theme=radical&count_private=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuefengw&layout=compact&theme=radical" height="150" alt="languages graph" />
 </div>
 
 <br/>
@@ -47,9 +44,9 @@
 <h3 align="center">🐍 My Contribution Snake</h3>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/你的用户名/你的用户名/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/你的用户名/你的用户名/profile-snake-contrib/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/你的用户名/你的用户名/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/yuefengw/yuefengw/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/yuefengw/yuefengw/profile-snake-contrib/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/yuefengw/yuefengw/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
 
