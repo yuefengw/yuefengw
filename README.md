@@ -33,12 +33,16 @@
 
 ## 📬 联系方式
 
-| 平台          | 信息               | 链接/账号                                                 |
+<div align="center">
+
+| 平台          | 信息               | 链接/账号                                                     |
 | ------------- | ------------------ | --------------------------------------------------------- |
-| 🐙 GitHub     | 开源项目与代码仓库 | [yuefengw](https://github.com/yuefengw)            |
-| 📧 Email      | 邮箱联系           | [wyf010219@163.com](mailto:wyf010219@163.com)                    |
+| 🐙 GitHub     | 开源项目与代码仓库 | [yuefengw](https://github.com/yuefengw)                   |
+| 📧 Email      | 邮箱联系           | [wyf010219@163.com](mailto:wyf010219@163.com)             |
 | 🌐 个人博客   | 技术分享与思考     | [CSDN 摸个小yu](https://blog.csdn.net/qq_41725967?spm=1011.2124.3001.5343) |
-| 📝 语雀       | 知识库与文档       | [语雀空间](https://www.yuque.com/u55081998)               |
+| 📝 语雀       | 知识库与文档       | [语雀空间](https://www.yuque.com/u55081998)                |
+
+</div>
 
 ## 🚀 项目经历
 
