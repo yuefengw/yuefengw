@@ -21,14 +21,13 @@
 
 ### Contribution Calendar
 
-<!--https://github.com/yuefengw/yuefengw/blob/snk/github-contribution-grid-snake-dark.svg
-https://github.com/yuefengw/yuefengw/blob/snk/github-contribution-grid-snake.svg -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuefengw/yuefengw/refs/heads/snk/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuefengw/yuefengw/refs/heads/snk/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yuefengw/yuefengw/refs/heads/snk/github-contribution-grid-snake.svg">
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/yuefengw/yuefengw@output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/yuefengw/yuefengw@output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/yuefengw/yuefengw@output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
 
 *generated with [Platane/snk](https://github.com/Platane/snk)*
 
