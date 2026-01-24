@@ -1,8 +1,8 @@
-# Hi there 👋 <img src="https://github.com/laixintao/laixintao/blob/master/assets/wave.gif" width="29px">
+# Hi there <img src="https://github.com/laixintao/laixintao/blob/master/assets/wave.gif" width="29px">
 ---
 
 
-  你好！ 我是Yuefeng Wang 一名计算机科学与技术专业的硕士生（2027年毕业） 目前正在寻找一份工作机会  同时也喜欢在github上关注并分享一些开源项目和文章
+  你好！ 我是Yuefeng Wang, 一名计算机科学与技术专业的硕士生（2027年毕业）, 目前正在寻找一份工作机会, 同时也喜欢在github上关注并分享一些开源项目和文章~
 
   专业技能
   	
@@ -35,7 +35,7 @@
 
 | 平台          | 信息               | 链接/账号                                                 |
 | ------------- | ------------------ | --------------------------------------------------------- |
-| 🐙 GitHub     | 开源项目与代码仓库 | [AHUA-Official](https://github.com/yuefengw)            |
+| 🐙 GitHub     | 开源项目与代码仓库 | [yuefengw](https://github.com/yuefengw)            |
 | 📧 Email      | 邮箱联系           | [wyf010219@163.com](mailto:wyf010219@163.com)                    |
 | 🌐 个人博客   | 技术分享与思考     | [https://yuefengw.github.io/](https://yuefengw.github.io/) |
 | 📝 语雀       | 知识库与文档       | [语雀空间](https://www.yuque.com/wyf)               |
@@ -57,11 +57,10 @@
 - 借助 Redis 的 zet 数据结构实现轻量级的作者白名单，提升优秀作者发布文章的用户体验。
 - 采用自旋锁策略优化缓存架构，针对热 key 的并发访问进行同步，防止其失效时导致的缓存击穿。
 - 通过 Nginx 代理，将客户端请求转发到目标服务器的后端 API 接口，从而解决跨域问题。
-> 💡 *如果您对这个项目感兴趣，欢迎通过issue或邮件联系我：wyf010219@163.com*
+
+---
 
 ### **GeekSeek - 基于RAG的知识库问答助手**
-
-**角色：** *后端开发*
 
 **项目描述：** GeekSeek是一个基于私有知识库的企业级智能对话平台，允许用户上传文档构建专属知识空间，并通过自然语言交互方式查询和获取知识。它结合了大语言模型和向量检索技术，能够让用户能够通过对话的形式与自己的知识库进行高效交互。
 
@@ -74,3 +73,4 @@
 - 设计文档分块与索引方案，用文档层级树组织章/段/句结构，以句子作为最小向量单元，并实现动态粒度检索，减少语义链被硬切导致的召回断裂，使检索 F1 提升约 10%。
 - 本地部署向量模型完成文本块向量化，落地关键词检索加向量检索的混合检索，采用 RRF 倒数排名融合策略计算 TopK。
 - 构建 RAG 效果评测与模型对比机制，设计多层次文档匹配算法评估检索质量，针对 bge、qwen 等向量模型输出 Precision、Recall、F1、MRR 等指标，为优化提供量化依据。
+> 💡 *如果您对这个项目感兴趣，欢迎通过issue或邮件联系我：wyf010219@163.com*
