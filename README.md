@@ -5,8 +5,10 @@
   你好！ 我是Yuefeng Wang, 一名计算机科学与技术专业的硕士生（2027年毕业）, 目前正在寻找一份工作机会, 同时也喜欢在github上关注并分享一些开源项目和文章~
 
   专业技能
-  	
- 	•Go:        掌握 Go 语言基础语法、并发编程（goroutine、channel）、包管理等核心特性；了解 Go 的垃圾回收机制、调度器原理；具备使用 Go 开发微服务的经验。
+  	•AI编程:	熟练运用Cursor、Codex等AI编程工具开展工程化开发，高效完成代码编写与项目实现；
+	•Agent开发:	了解 LoRA、QLoRA 等参数微调方法，具备微调数据构造、Ollama本地模型部署与基础调用能力；
+				熟悉MCP、Skills封装与Function Calling机制；掌握提示词工程、上下文工程、结构化输出等Agent开发技能；
+				熟悉LangChain、LangGraph等大模型应用开发框架；熟悉ReAct、Plan-and-Execute、Reflection、Multi-Agent 等智能体执行模式，具备Memory管理与工作流编排能力。
  	•Java基础:  掌握 Java 的集合、注解、反射及 Stream 流式编程等，精读 HashMap 源码，理解其扩容机制与实现原理。
  	•Web框架:   熟悉 SpringBoot、MyBatisPlus、Maven 等主流 Java 开发框架，了解其核心机制如 IoC 和 AOP；熟悉 Flask 框架，具备基于 RESTful 风格的 API 开发经验。
   	•并发编程:  熟悉Java中的并发容器,如ConcurrentHashMap、CopyOnWriteArrayList等常用容器的原理;深入理解线程池、synchronized 关键字、volatile 关键字、ThreadLocal等的底层原理。
@@ -54,31 +56,23 @@
 
 **核心技术：** 
 - 基于MinIO+Kafka搭建异步文档处理链路，支持大文件**分片上传**、**断点续传**、合并及解析、切块、向量化、索引化并行处理。
-
 - 基于**MinerU解析**后的 JSON 文件设计文档切块策略，按type组织语义块，结合**递归细切**、**列表前导句**和**表头绑定**及**VLM图片描述回填**，减少语义断裂并补全文档语义信息。
-
 - 设计**Query Rewrite**机制，融合规则清洗、疑问词过滤、同义词扩展与**Few-shot约束**的**MultiQuery**生成，提升弱表达查询检索效果。
-
 - 基于 Elasticsearch+IK分词器实现**BM25+KNN混合召回**，并结合**RRF**融合与**Cross-Encoder**二阶重排优化检索排序，多轮测试下MRR、NDCG 提升 20%+。
-
 - 构建**长短期记忆融合**机制，结合短期Redis窗口上下文、长期LLM摘要抽取与ES记忆召回，增强多轮对话一致性。
-
 - 基于RAGAS构建自动化评估闭环，在600条测试集上系统忠实度由71%提升至85%，上下文精确度与召回率均接近90%，并支持证据引用与结果可追溯分析。
 
 ---
 
-### **TripBuddy - 基于Agent工作流的旅行助手**
+### **Shannon – 面向复杂任务的多智能体编排平台**
 
-**项目描述：** GeekSeek是一个企业级 AI Agent 工作流编排平台，支持用户通过可视化方式编排大模型节点、插件与逻辑控制流。项目采用微服务架构，集成了 LLM、超拟人音频合成等工具，提供从工作流设计、调试到发布的完整生命周期管理。
+**项目描述：** 负责构建面向复杂任务的智能体执行平台，围绕任务拆解、路由编排、工具扩展、多智能体协同和记忆管理等核心问题进行系统设计与实现，支撑复杂任务在多角色Agent间的高效协作与稳定执行。
 
-**技术栈：** Java 21, Spring Boot, MySQL 8.4, Redis, MinIO, Docker Compose, MyBatis-Plus, SSE，SpringAI，LangChain4j
+**技术栈：** FastAPI / LangGraph / LangChain / ReAct / Milvus / Redis 
 
 **核心技术：** 
-- 基于 Spring 的事件驱动模型与责任链模式，通过 NodeExecutor 接口的多态实现不同类型节点的统一调度；通过构建执行链路（边驱动的顺序执行）完成从输入→LLM 节点→超拟人合成节点→ 输出节点的流程推进。
-- 深度集成并扩展 Spring AI 框架，构建无状态异构大模型统一网关，抹平 OpenAI、DeepSeek 等不同基座的调用差异。
-- 实现 DAG 工作流解析引擎,基于 Kahn 算法的拓扑排序确定节点执行顺序,结合 DFS 深度优先搜索检测循环依赖;可根据工作流配置结构,构建节点执行顺序，支持一对多、多对一的节点连接方式。
-- 深入源码排查 Spring AI 对接非标准 OpenAI 接口的路径拼接 Bug，通过重写底层初始化逻辑实现精准适配，确保国产大模型在框架下的无缝平滑接入。
-- 主导 Link 连接器与 AI Tools 模块的设计，通过标准化 HTTP/MCP 协议接口，实现外部 API 与内部原子能力的无缝热插拔，支持 10+ 种 AI 能力在不重启核心引擎下的动态扩展。
-- 利用 Reactor 响应式编程（Flux）与 SSE 技术，构建了从大模型节点到前端 Web 的全链路毫秒级流式响应通路。结合双队列架构解耦 Token 消费与状态变更事件，彻底消除高并发下的 SSE 乱序与丢包问题。
-- 研发 LlmChatHistory 组件，基于 Token 滑动窗口算法实现历史对话截断策略，在有限的上下文窗口（Context Window）内最大化保留业务记忆，成功在无状态的 HTTP 协议上构建高可靠的多轮对话能力。
+- 面向复杂任务构建任务理解与动态路由机制，依据任务分解结果将请求智能分发至不同执行路径，并基于LangGraph编排链路支持DAG、Research、Multi-Agent等多种Agent执行模式。
+- 实现基于ReAct的Multi-Agent协作框架，采用主 Agent 规划调度、多角色并发执行；通过任务板、共享工作区与点对点消息机制实现多Agent协作，并支持基于idle状态的任务再分配以及运行中的human-in-the-loop干预。
+- 设计并实现统一工具调用与能力扩展框架，在LangChain Tool抽象之上构建ToolRegistry管理工具元数据，支持原生工具、MCP工具与OpenAPI工具的统一注册、发现、动态暴露和受控执行。
+- 实现会话记忆检索与上下文压缩链路，基于Milvus存储会话问答与摘要向量，并通过历史裁剪和摘要注入控制请求上下文大小；在多智能体场景下为子智能体分别维护执行历史与关键记忆，并通过上下文裁剪降低长链路执行成本。
 > 💡 *如果您对这个项目感兴趣，欢迎通过issue或邮件联系我：wyf010219@163.com*
