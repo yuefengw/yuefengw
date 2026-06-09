@@ -1,4 +1,6 @@
-你好！我是 Yuefeng Wang，一名计算机科学与技术专业的硕士生（2027 年毕业）。目前正在 [融云 RongCloud][rongcloud] 担任办公协同 Agent 开发实习生，也正在寻找工作机会；平时喜欢在 GitHub 上关注并分享一些开源项目和技术文章~
+你好！我是 Yuefeng Wang，一名计算机科学与技术专业的硕士生（2027 年毕业）。
+
+目前正在 [融云 RongCloud][rongcloud] 担任**办公协同 Agent开发**实习生；平时喜欢在 GitHub 上关注并分享一些开源项目和技术文章~
 
 [rongcloud]: https://www.rongcloud.cn/ "融云 RongCloud"
 
